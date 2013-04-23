@@ -4,12 +4,14 @@ SublimeText Snippets
 
 **Type @[tag] followed by tab...
 
-@newsRecord - News Record
-@simpleMenu - SimpleMenu XML
-@newsComplete - Complete News Listing
-@basicSearch - basic search
-@newsMiniListing - News Mini Listing
-@eventsComplete - Events Calendar
-@accordian - accordian menu
-@breadcrumbs - breadcrumbs
-@documentChannel - Complete Document Channel module
+<ul>
+<li>@newsRecord - News Record</li>
+<li>@simpleMenu - SimpleMenu XML</li>
+<li>@newsComplete - Complete News Listing</li>
+<li>@basicSearch - basic search</li>
+<li>@newsMiniListing - News Mini Listing</li>
+<li>@eventsComplete - Events Calendar</li>
+<li>@accordian - accordian menu</li>
+<li>@breadcrumbs - breadcrumbs</li>
+<li>@documentChannel - Complete Document Channel module</li>
+</ul>
