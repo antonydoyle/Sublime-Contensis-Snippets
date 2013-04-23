@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+
+		<div class="sys_news-control sys_news-minilist-control">
+			<div id="NewsMiniListing_List" class="sys_datarepeatercontrol">
+				<ul class="sys_itemslist">
+					<li class="sys_subitem sys_first">
+						<a title="vfg bgh" href="#">vfg bgh</a> <span class="sys_news-datepublished">Friday 22nd February</span>
+					</li>
+					<li class="sys_subitem sys_subalternatingitem">
+						<a title="image" href="http://preview.r72.contensis.co.uk/images/banners/Discover-Contensis.jpg">image</a> <span class="sys_news-datepublished">Thursday 31st January</span>
+					</li>
+					<li class="sys_subitem">
+						<a title="Hold a Macmillan coffee morning get 10% off your next module!" href="#">Hold a Macmillan coffee morning get 10% off your next module!</a> <span class="sys_news-datepublished">Wednesday 8th September</span>
+					</li>
+					<li class="sys_subitem sys_subalternatingitem">
+						<a title="Census finds 5000 marine species" href="#">Census finds 5000 marine species</a> <span class="sys_news-datepublished">Friday 19th February</span>
+					</li>
+					<li class="sys_subitem">
+						<a title="MySpace Music launches in the UK" href="#">MySpace Music launches in the UK</a> <span class="sys_news-datepublished">Thursday 3rd December</span>
+					</li>
+					<li class="sys_subitem sys_subalternatingitem">
+						<a title="Contensis and The University of Nottingham" href="#">Contensis and The University of Nottingham</a> <span class="sys_news-datepublished">Wednesday 2nd December</span>
+					</li>
+					<li class="sys_subitem">
+						<a title="Web giants unite against Digital Britain copyright plan" href="">Web giants unite against Digital Britain copyright plan</a> <span class="sys_news-datepublished">Wednesday 2nd December</span>
+					</li>
+					<li class="sys_subitem sys_subalternatingitem">
+						<a title="European Space Missions Given Cost Warning" href="#">European Space Missions Given Cost Warning</a> <span class="sys_news-datepublished">Wednesday 2nd December</span>
+					</li>
+					<li class="sys_subitem">
+						<a title="Did Google Just Blink" href="#">Did Google Just Blink</a> <span class="sys_news-datepublished">Wednesday 2nd December</span>
+					</li>
+					<li class="sys_subitem sys_subalternatingitem sys_last">
+						<a title="Malware suspected of 'Black Screen' issue" href="">Malware suspected of 'Black Screen' issue</a> <span class="sys_news-datepublished">Tuesday 1st December</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>@newsMiniListing</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

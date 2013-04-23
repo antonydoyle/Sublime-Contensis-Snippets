@@ -1,0 +1,82 @@
+<snippet>
+	<content><![CDATA[
+	<ul class="sys_simpleListMenu">
+			<li class="sys_first">
+				<a title="title here" class="sys_0 sys_t5966" href="#">Optional Extras</a>
+			</li>
+			<li>
+				<a title="title here" class="sys_0 sys_t5966" href="#">Membership / Authentication Controls</a>
+			</li>
+			<li>
+				<a title="title here" class="sys_0 sys_t5966" href="#">Multimedia Controls</a>
+			</li>
+			<li>
+				<a title="title here" class="sys_0 sys_t5966" href="#">Search Controls</a>
+			</li>
+			<li>
+				<a title="title here" class="sys_0 sys_t5966" href="#">Listing Controls</a>
+			</li>
+			<li>
+				<a title="title here" class="sys_0 sys_t5966" href="#">User Interaction Controls</a>
+			</li>
+			<li>
+				<div class="sys_selected">
+					<a title="title here" class="sys_0 sys_t5966" href="#">Navigational Controls</a>
+				</div>
+				<ul class="sys_children">
+					<li class="sys_first">
+						<a title="title here" class="sys_0 sys_t5966" href="#">Accordion Menu</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Breadcrumb XML</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Dynamic Jump menu</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Folder Summary List</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Local View Menu</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Local View Menu (UL)</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Local View Menu Content</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Quicklinks Menu</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Related Items</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Related Items As Standard List</a>
+					</li>
+					<li>
+						<a title="title here" class="sys_0 sys_t5966" href="#">Related Items By Taxonomy</a>
+					</li>
+					<li>
+						<div class="sys_selected sys_currentitem">
+							<a title="title here" class="sys_0 sys_t5966" href="#">Simple Menu XML</a>
+						</div>
+					</li>
+					<li class="sys_last">
+						<a title="title here" class="sys_0 sys_t5966" href="#">Sitemap XML</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a title="title here" class="sys_0 sys_t5966" href="#">Accessibility Controls</a>
+			</li>
+			<li class="sys_last">
+				<a title="title here" class="sys_0 sys_t5966" href="#">Home</a>
+			</li>
+		</ul><!--End Example Web Control HTML-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@simpleMenu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

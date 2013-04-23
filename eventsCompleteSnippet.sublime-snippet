@@ -1,0 +1,220 @@
+<snippet>
+	<content><![CDATA[
+
+ <div class="sys_events sys_themed sys_theme-simple">
+	<div class="sys_clear">
+		
+	</div><div class="sys_tools-control sys_events-tools-control sys_syndicationlinks-control">
+		<div class="sys_button-subscribe-rss">
+			<a title=" - RSS Feed (RSS 2.0)" href="#" >RSS Feed</a>
+		</div><div class="sys_button-subscribe-atom">
+			<a title=" - Atom Feed (Atom 1.0)" href="#" >Atom Feed</a>
+		</div><div class="sys_button-subscribe-calendar">
+			<a href="#" >Add to my Calendar</a>
+		</div>
+	</div><div class="sys_tabsfilter-control sys_events-tabs-control">
+		<ul>
+			<li class="sys_first sys_selected"><a title="All" href="#" >All</a></li><li><a title="Today" href="#" >Today</a></li><li><a title="Tomorrow" href="#" >Tomorrow</a></li><li><a title="This Week" href="#" >This Week</a></li><li><a title="Next Week" href="#" >Next Week</a></li><li class="sys_last"><a title="This Month" href="#" >This Month</a></li>
+		</ul>
+	</div><div class="sys_events-search-control sys_modular-search-control">
+		<div class="sys_search-options">
+			<div class="sys_search-row sys_keywords-row">
+				<label for="ctl39">Keywords</label><input name="ctl39" type="text" value="Search Contensis" id="ctl39" onkeypress="ContensisSubmitFromTextbox(event,&#39;ctl64&#39;)" />
+			</div><div class="sys_search-row sys_datefrom-row">
+				<label for="ctl43">Date From (dd/mm/yy)</label><div>
+					<input name="ctl43" type="text" id="ctl43" class="sys_datepicker" />
+				</div>
+			</div><div class="sys_search-row sys_dateto-row">
+				<label for="ctl55">Date To (dd/mm/yy)</label><div>
+					<input name="ctl55" type="text" id="ctl55" class="sys_datepicker" />
+				</div>
+			</div><div class="sys_search-row sys_category-row sys_checkbox-list">
+				<div class="sys_search-row-label">
+					Event Category
+				</div><div class="sys_checkboxlist sys_checkbox-list"><div class="sys_checkbox"><input id="ctl63_check_0" type="checkbox" name="ctl63_check$0" value="0/1/45/46/246" /><label for="ctl63_check_0">Exhibition</label></div>
+<div class="sys_checkbox"><input id="ctl63_check_1" type="checkbox" name="ctl63_check$1" value="0/1/45/46/247" /><label for="ctl63_check_1">Project Launches</label></div>
+<div class="sys_checkbox"><input id="ctl63_check_2" type="checkbox" name="ctl63_check$2" value="0/1/45/46/244" /><label for="ctl63_check_2">Seminar</label></div>
+<div class="sys_checkbox"><input id="ctl63_check_3" type="checkbox" name="ctl63_check$3" value="0/1/45/46/248" /><label for="ctl63_check_3">Software Releases</label></div>
+<div class="sys_checkbox"><input id="ctl63_check_4" type="checkbox" name="ctl63_check$4" value="0/1/45/46/245" /><label for="ctl63_check_4">Training</label></div>
+</div>
+			</div><div class="sys_search-row sys_button-row">
+				<input type="submit" name="ctl64" value="Search" id="ctl64" class="sys_button sys_searchbutton sys_search-button" />
+			</div>
+		</div>
+	</div><div class="sys_events-control">
+		<div id="EventsCalendar__List" class="sys_datarepeatercontrol">
+			<div class="sys_groupheader sys_first-groupheader">
+				<span>Thursday 18th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset sys_first-groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Friday 19th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Saturday 20th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Sunday 21st April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Monday 22nd April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Tuesday 23rd April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Wednesday 24th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Thursday 25th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader">
+				<span>Friday 26th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_groupheader sys_last-groupheader">
+				<span>Saturday 27th April 2013</span>
+			</div><div class="sys_itemslist sys_groupset sys_last-groupset">
+				<div class="sys_subitem sys_first">
+					<div>
+						<h2 class="sys_subitem-heading sys_events-subheading"><a title="75 Years of Penguin Books" href="#" >75 Years of Penguin Books</a></h2><div class="sys_thumbnail">
+							<a href="#" ><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fevents%2fpenguin-archive.jpg&amp;ImageWidth=86&amp;ImageHeight=65" alt="75 Years of Penguin Books" /></a>
+						</div><div class="sys_subitem-summary sys_events-summary">
+							<dl>
+								<dt class="sys_events-date">Date</dt><dd class="sys_events-date">Friday 6th April 2012 (10:00:00) - Tuesday 30th April 2013 (16:45:00)</dd><dt class="sys_events-location">Location: </dt><dd class="sys_events-location">Bristol, Ludlow</dd><dt class="sys_events-description">Description</dt><dd class="sys_events-description">In 2010, Penguin Books will be 75 years old and Puffin Books will be 70 years old.  Organised by the AHRC Penguin Archive Project, the International Penguin Conference is occasioned by these two anniversaries of what is arguably the most distinctive and the most significant publishing house in the twentieth century and beyond.</dd><dt class="sys_events-category">Categories: </dt><dd class="sys_events-category"><a href="#" >Exhibition</a>, <a href="#" >Software Releases</a>, <a href="#" >Training</a></dd>
+							</dl>
+						</div><div class="sys_clear">
+							
+						</div>
+					</div>
+				</div>
+			</div><div class="sys_flickrpager">
+				<div class="sys_paginginfo">
+					<span class="c_paginginforecorddescription">Displaying</span> <span class="sys_paginginfocurrentrecord">1</span> <span class="sys_paginginforecordcountdescription">to</span> <span class="sys_paginginfomaxrecord">10</span> <span class="sys_paginginforecordcountdescription">of</span> <span class="sys_paginginforecordcount">13</span>
+				</div><div class="sys_navigation">
+					<span class="sys_navigationprevious sys_disabled"><span>Previous</span></span> <span class="sys_page sys_selected"><span>1</span></span> <span class="sys_page"><a title="Go to the 2nd page of the Latest Events" href="#" >2</a></span> <span class="sys_navigationnext"><a title="Go to the next page of the Latest Events" href="#" >Next</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@eventsComplete</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

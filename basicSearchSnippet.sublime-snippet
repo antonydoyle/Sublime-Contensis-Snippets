@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+		<div class="sys_theme-simple sys_searchcontrolstandard-themed">
+			<div class="sys_search-query-control">
+				<label for="SearchQueryControlDemo_SearchTextBox" class="sys_search-label">Search</label><input name="SearchQueryControlDemo_SearchTextBox" type="text" value="Search Contensis" id="SearchQueryControlDemo_SearchTextBox" class="sys_searchbox" onkeypress="ContensisSubmitFromTextbox(event,'SearchQueryControlDemo_SearchButton')"><input type="submit" name="SearchQueryControlDemo_SearchButton" value="Search" id="SearchQueryControlDemo_SearchButton" title="Search" class="sys_button sys_searchbutton sys_search-button">
+			</div>
+		</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@basicSearch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

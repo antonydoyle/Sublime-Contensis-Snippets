@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div>
+	<a title="Go to Control Gallery from here" class="sys_0 sys_t5966" href="/control-gallery/index.aspx">Control Gallery</a> &#62; <a title="Go to Navigational Controls from here" class="sys_0 sys_t5966" href="/control-gallery/navigation/Index.aspx">Navigational Controls</a> &#62; <span>Breadcrumb XML</span>
+</div>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@breadcrumbs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

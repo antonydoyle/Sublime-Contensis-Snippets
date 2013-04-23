@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+<ul class="sys_accordianMenu">
+			<li class="sys_first">
+				<a href="#" title="Go to Feature Matrix from here">Feature Matrix</a>
+			</li>
+			<li class="sys_accordianitem">
+				<a href="#" id="AccordionMenu2_Anchor0" title="Go to Features from here">Features</a>
+				<ul class="sys_children">
+					<li class="sys_first">
+						<a href="#" title="Go to For website, intranet or portal from here">For website, intranet or portal</a>
+					</li>
+					<li class="sys_last">
+						<a href="#" title="Go to For managing your content from here">For managing your content</a>
+					</li>
+				</ul>
+			</li>
+			<li class="sys_accordianitem">
+				<a href="#" id="AccordionMenu2_Anchor1" title="Go to Services from here">Services</a>
+				<ul class="sys_children">
+					<li class="sys_first">
+						<a href="#" title="Go to Training from here">Training</a>
+					</li>
+					<li>
+						<a href="#" title="Go to Professional Services from here">Professional Services</a>
+					</li>
+					<li class="sys_last">
+						<a href="#" title="Go to Support from here">Support</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" title="Go to Technology from here">Technology</a>
+			</li>
+			<li>
+				<a href="#" title="Go to Contensis Price List from here">Contensis Price List</a>
+			</li>
+			<li class="sys_last">
+				<a href="#" title="Go to Online Tour from here">Online Tour</a>
+			</li>
+		</ul>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@accordian</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

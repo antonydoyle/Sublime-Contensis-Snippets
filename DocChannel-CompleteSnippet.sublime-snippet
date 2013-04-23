@@ -1,0 +1,500 @@
+<snippet>
+	<content><![CDATA[
+
+		<div class="sys_documentchannel sys_themed sys_theme-simple">
+			<div class="sys_clear"></div>
+			<div class="sys_tools-control sys_documentchannel-tools-control sys_syndicationlinks-control">
+				<div class="sys_button-subscribe-rss">
+					<a title="Document Channel - RSS Feed (RSS 2.0)" href="#" >RSS Feed</a>
+				</div>
+				<div class="sys_button-subscribe-atom">
+					<a title="Document Channel - Atom Feed (Atom 1.0)" href="#" >Atom Feed</a>
+				</div>
+			</div>
+			<div id="DocumentChannel_Search1" class="sys_documentchannel-search-control sys_modular-search-control">
+				<div class="sys_search-options">
+					<div class="sys_search-row sys_keywords-row">
+						<label for="DocumentChannel_Search1_keywords">Keyword(s)</label><input name="DocumentChannel_Search1_keywords" type="text" value="Search Contensis" id="DocumentChannel_Search1_keywords" onkeypress="ContensisSubmitFromTextbox(event,'DocumentChannel_Search1_SearchButton')">
+					</div>
+					<div class="sys_search-row sys_sort-row sys_checkbox-list">
+						<div class="sys_search-row sys_sortby-row">
+							<label for="DocumentChannel_Search1_sorting">Sort by</label><select name="DocumentChannel_Search1_sorting" id="DocumentChannel_Search1_sorting">
+								<option value="1">
+									Newest First
+								</option>
+								<option value="2">
+									Oldest First
+								</option>
+								<option value="3">
+									A-Z Ascending
+								</option>
+								<option value="4">
+									A-Z Descending
+								</option>
+								<option value="5">
+									Smallest First
+								</option>
+								<option value="6">
+									Largest First
+								</option>
+							</select>
+						</div>
+					</div>
+					<div class="sys_search-row sys_type-row sys_checkbox-list">
+						<div class="sys_search-row-label">
+							Type
+						</div>
+						<div class="sys_checkboxlist">
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_0" type="checkbox" name="DocumentChannel_Search1_type$0" checked="checked" value="42"><label for="DocumentChannel_Search1_type_0">Favourite Icon</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_1" type="checkbox" name="DocumentChannel_Search1_type$1" checked="checked" value="50"><label for="DocumentChannel_Search1_type_1">FLV Video</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_2" type="checkbox" name="DocumentChannel_Search1_type$2" checked="checked" value="1"><label for="DocumentChannel_Search1_type_2">HTML</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_3" type="checkbox" name="DocumentChannel_Search1_type$3" checked="checked" value="43"><label for="DocumentChannel_Search1_type_3">HTML Upload</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_4" type="checkbox" name="DocumentChannel_Search1_type$4" checked="checked" value="16"><label for="DocumentChannel_Search1_type_4">Hyperlink</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_5" type="checkbox" name="DocumentChannel_Search1_type$5" checked="checked" value="2"><label for="DocumentChannel_Search1_type_5">Image</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_6" type="checkbox" name="DocumentChannel_Search1_type$6" checked="checked" value="18"><label for="DocumentChannel_Search1_type_6">MS Excel</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_7" type="checkbox" name="DocumentChannel_Search1_type$7" checked="checked" value="19"><label for="DocumentChannel_Search1_type_7">MS PowerPoint</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_8" type="checkbox" name="DocumentChannel_Search1_type$8" checked="checked" value="17"><label for="DocumentChannel_Search1_type_8">MS Word</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_9" type="checkbox" name="DocumentChannel_Search1_type$9" checked="checked" value="21"><label for="DocumentChannel_Search1_type_9">PDF</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_10" type="checkbox" name="DocumentChannel_Search1_type$10" checked="checked" value="5"><label for="DocumentChannel_Search1_type_10">ShockWave Flash</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_11" type="checkbox" name="DocumentChannel_Search1_type$11" checked="checked" value="13"><label for="DocumentChannel_Search1_type_11">TXT File</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_12" type="checkbox" name="DocumentChannel_Search1_type$12" checked="checked" value="8"><label for="DocumentChannel_Search1_type_12">XML Data</label>
+							</div>
+							<div class="sys_checkbox">
+								<input id="DocumentChannel_Search1_type_13" type="checkbox" name="DocumentChannel_Search1_type$13" checked="checked" value="30"><label for="DocumentChannel_Search1_type_13">ZIP Archive</label>
+							</div>
+						</div>
+					</div>
+					<div class="sys_search-row sys_button-row">
+						<input type="submit" name="DocumentChannel_Search1_SearchButton" value="Find Documents" id="DocumentChannel_Search1_SearchButton" class="sys_button sys_searchbutton sys_search-button">
+					</div>
+				</div>
+			</div>
+			<div class="sys_theme-simple sys_documentlisting-themed">
+				<div class="sys_documentchannel-control">
+					<h2 class="sys_documentchannel-title sys_standardlist-title">
+						Example Documents
+					</h2>
+					<div id="DocumentChannel_Listing1_List" class="sys_datarepeatercontrol">
+						<div class="sys_groupheader sys_first-groupheader">
+							<span>Friday, 25 June 2010</span>
+						</div>
+						<div class="sys_itemslist sys_groupset sys_first-groupset">
+							<div class="sys_subitem sys_first">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="Word2" href="#" >word2.doc</a>
+									</h3>
+									<div class="sys_icon sys_17"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of a MS Word document entitled 'Word2', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												Ian Glaze
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												235 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												10:47:00 Friday 25 June 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem sys_subalternatingitem">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="Word4" href="#" >word4.doc</a>
+									</h3>
+									<div class="sys_icon sys_17"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of a MS Word document entitled 'Word4', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												Ian Glaze
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												235 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												10:47:00 Friday 25 June 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="Word1" href="#" >word1.doc</a>
+									</h3>
+									<div class="sys_icon sys_17"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of a MS Word document entitled 'Word1', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												Ian Glaze
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												235 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												10:47:00 Friday 25 June 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem sys_subalternatingitem sys_last">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="Word3" href="#" >word3.doc</a>
+									</h3>
+									<div class="sys_icon sys_17"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of a MS Word document entitled 'Word3', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												Ian Glaze
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												235 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												10:47:00 Friday 25 June 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+						</div>
+						<div class="sys_groupheader sys_last-groupheader">
+							<span>Friday, 16 April 2010</span>
+						</div>
+						<div class="sys_itemslist sys_groupset sys_last-groupset">
+							<div class="sys_subitem sys_first">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="pdf3" href="#" >pdf3.pdf</a>
+									</h3>
+									<div class="sys_icon sys_21"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of an Adobe Acrobat (.PDF) document entitled 'pdf3', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												System Administrator
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												91 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												14:30:00 Friday 16 April 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem sys_subalternatingitem">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="pdf2" href="#" >pdf2.pdf</a>
+									</h3>
+									<div class="sys_icon sys_21"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of an Adobe Acrobat (.PDF) document entitled 'pdf2', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												System Administrator
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												91 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												14:30:00 Friday 16 April 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="pdf4" href="#" >pdf4.pdf</a>
+									</h3>
+									<div class="sys_icon sys_21"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of an Adobe Acrobat (.PDF) document entitled 'pdf4', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												System Administrator
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												91 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												14:30:00 Friday 16 April 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem sys_subalternatingitem">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="pdf1" href="#" >pdf1.pdf</a>
+									</h3>
+									<div class="sys_icon sys_21"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of an Adobe Acrobat (.PDF) document entitled 'pdf1', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												System Administrator
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												91 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												14:29:00 Friday 16 April 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="powerpoint1" href="#" >powerpoint1.ppt</a>
+									</h3>
+									<div class="sys_icon sys_19"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of a MS Powerpoint document entitled 'Powerpoint1', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												System Administrator
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												120 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												14:26:00 Friday 16 April 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+							<div class="sys_subitem sys_subalternatingitem sys_last">
+								<div>
+									<h3 class="sys_subitem-heading sys_documentchannel-subheading">
+										<a title="powerpoint3" href="#" >powerpoint3.ppt</a>
+									</h3>
+									<div class="sys_icon sys_19"></div>
+									<div class="sys_subitem-summary sys_documentchannel-summary">
+										<dl>
+											<dt class="sys_documentchannel-description">
+												Description
+											</dt>
+											<dd class="sys_documentchannel-description">
+												This is an example of a MS Powerpoint document entitled 'Powerpoint3', added for testing purposes in the document channel.
+											</dd>
+											<dt class="sys_documentchannel-by">
+												By:
+											</dt>
+											<dd class="sys_documentchannel-by">
+												System Administrator
+											</dd>
+											<dt class="sys_documentchannel-filesize">
+												Filesize:
+											</dt>
+											<dd class="sys_documentchannel-filesize">
+												120 KB
+											</dd>
+											<dt class="sys_documentchannel-dateposted">
+												Posted:
+											</dt>
+											<dd class="sys_documentchannel-dateposted">
+												14:26:00 Friday 16 April 2010
+											</dd>
+										</dl>
+									</div>
+									<div class="sys_clear"></div>
+								</div>
+							</div>
+						</div>
+						<div class="sys_flickrpager">
+							<div class="sys_paginginfo">
+								<span class="c_paginginforecorddescription">Displaying</span> <span class="sys_paginginfocurrentrecord">1</span> <span class="sys_paginginforecordcountdescription">to</span> <span class="sys_paginginfomaxrecord">10</span> <span class="sys_paginginforecordcountdescription">of</span> <span class="sys_paginginforecordcount">16</span>
+							</div>
+							<div class="sys_navigation">
+								<span class="sys_navigationprevious sys_disabled"><span>Previous</span></span> <span class="sys_page sys_selected"><span>1</span></span> <span class="sys_page"><a title="Go to the 2nd page of the Example Documents" href="#" >2</a></span> <span class="sys_navigationnext"><a title="Go to the next page of the Example Documents" href="#" >Next</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>@documentChannel</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

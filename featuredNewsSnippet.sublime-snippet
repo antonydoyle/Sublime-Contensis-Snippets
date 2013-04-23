@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+		<div class="sys_theme-simple sys_newsfeaturelist-themed">
+			<div id="FeatureList_feature-list" class="sys_featurelistwithimage-control sys_news-featurelistwithimage-control">
+				<ul>
+					<li class="sys_selected">
+						<a href="#"><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fnews%2fevesham-committee-200x175-Cropped-200x150.jpg&amp;ImageWidth=200&amp;ImageHeight=135" alt="">Hold a Macmillan coffee morning get 10% off your next module!</a>
+					</li>
+					<li>
+						<a href="#"><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fnews%2fSalt-water-fish-Cropped-200x150.jpg&amp;ImageWidth=200&amp;ImageHeight=135" alt="">Census finds 5000 marine species</a>
+					</li>
+					<li>
+						<a href="#"><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fnews%2fkasabian-Cropped-200x150.jpg&amp;ImageWidth=200&amp;ImageHeight=135" alt="">MySpace Music launches in the UK</a>
+					</li>
+					<li>
+						<a href="#"><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fnews%2fnottingham-university-Cropped-200x150.jpg&amp;ImageWidth=200&amp;ImageHeight=135" alt="">Contensis and The University of Nottingham</a>
+					</li>
+					<li class="sys_more-link">
+						<a href="#">More News</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@featuredNews</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

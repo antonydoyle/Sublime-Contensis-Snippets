@@ -1,0 +1,237 @@
+<snippet>
+	<content><![CDATA[
+
+		<div class="sys_news sys_themed sys_theme-none">
+			<div class="sys_clear"></div>
+			<div class="sys_tools-control sys_news-tools-control sys_syndicationlinks-control">
+				<div class="sys_button-subscribe-rss">
+					<a title=" - RSS Feed (RSS 2.0)" href="#">RSS Feed</a>
+				</div>
+				<div class="sys_button-subscribe-atom">
+					<a title=" - Atom Feed (Atom 1.0)" href="#">Atom Feed</a>
+				</div>
+			</div>
+			<div id="NewsArchive_Ticker_Container" class="sys_ticker">
+				<span>Latest:</span><a href="#" id="NewsArchive_Ticker_Anchor">vfg bgh</a>
+			</div>
+			<div id="ctl29" class="sys_news-search-control">
+				<div class="sys_search-options">
+					<div class="sys_options-inner">
+						<div class="sys_basic-search-row sys_keyword-row">
+							<label for="ctl34">Enter Keywords</label>
+							<input name="ctl34" type="text" value="Enter Keywords" id="ctl34" onkeypress="ContensisSubmitFromTextbox(event,'ctl45')">
+						</div>
+						<div class="sys_basic-search-row sys_year-row">
+							<label for="ctl37">Select Year</label>
+							<select name="ctl37" id="ctl37">
+								<option selected="selected" value="">
+									All Years
+								</option>
+								<option value="2013">
+									2013
+								</option>
+								<option value="2012">
+									2012
+								</option>
+								<option value="2011">
+									2011
+								</option>
+								<option value="2010">
+									2010
+								</option>
+								<option value="2009">
+									2009
+								</option>
+								<option value="2008">
+									2008
+								</option>
+							</select>
+						</div>
+						<div class="sys_basic-search-row sys_month-row">
+							<label for="ctl40">Select Month</label><select name="ctl40" id="ctl40">
+								<option selected="selected" value="">
+									All Months
+								</option>
+								<option value="1">
+									January
+								</option>
+								<option value="2">
+									February
+								</option>
+								<option value="3">
+									March
+								</option>
+								<option value="4">
+									April
+								</option>
+								<option value="5">
+									May
+								</option>
+								<option value="6">
+									June
+								</option>
+								<option value="7">
+									July
+								</option>
+								<option value="8">
+									August
+								</option>
+								<option value="9">
+									September
+								</option>
+								<option value="10">
+									October
+								</option>
+								<option value="11">
+									November
+								</option>
+								<option value="12">
+									December
+								</option>
+							</select>
+						</div>
+						<div class="sys_basic-search-row sys_category-row">
+							<div class="sys_search-row-label">
+								Select Category
+							</div>
+						</div>
+						<div class="sys_basic-search-row sys_button-row">
+							<input type="submit" name="ctl45" value="Search Archive" id="ctl45" class="sys_button sys_searchbutton sys_search-button">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sys_news-control sys_standard-list">
+				<h2 class="sys_news-title sys_standardlist-title">
+					News
+				</h2>
+				<div id="NewsArchive__List" class="sys_datarepeatercontrol">
+					<div class="sys_groupheader sys_first-groupheader">
+						<span>Friday 22nd February 2013</span>
+					</div>
+					<div class="sys_itemslist sys_groupset sys_first-groupset">
+						<div class="sys_subitem sys_first">
+							<div>
+								<h3 class="sys_subitem-heading sys_news-subheading">
+									<a title="vfg bgh" href="#">vfg bgh</a>
+								</h3>
+								<div class="sys_icon"></div>
+								<div class="sys_subitem-summary sys_news-summary">
+									<dl>
+										<dt class="sys_news-datepublished">
+											Date:
+										</dt>
+										<dd class="sys_news-datepublished">
+											Friday 22nd February 2013
+										</dd>
+									</dl>
+								</div>
+								<div class="sys_clear"></div>
+							</div>
+						</div>
+					</div>
+					<div class="sys_groupheader">
+						<span>Thursday 31st January 2013</span>
+					</div>
+					<div class="sys_itemslist sys_groupset">
+						<div class="sys_subitem sys_first">
+							<div>
+								<h3 class="sys_subitem-heading sys_news-subheading">
+									<a title="image" href="#">image</a>
+								</h3>
+								<div class="sys_icon"></div>
+								<div class="sys_subitem-summary sys_news-summary">
+									<dl>
+										<dt class="sys_news-description">
+											Description
+										</dt>
+										<dd class="sys_news-description">
+											vsghrt
+										</dd>
+										<dt class="sys_news-datepublished">
+											Date:
+										</dt>
+										<dd class="sys_news-datepublished">
+											Thursday 31st January 2013
+										</dd>
+									</dl>
+								</div>
+								<div class="sys_clear"></div>
+							</div>
+						</div>
+					</div>
+					<div class="sys_groupheader sys_last-groupheader">
+						<span>Wednesday 8th September 2010</span>
+					</div>
+					<div class="sys_itemslist sys_groupset sys_last-groupset">
+						<div class="sys_subitem sys_first">
+							<div>
+								<h3 class="sys_subitem-heading sys_news-subheading">
+									<a title="Hold a Macmillan coffee morning get 10% off your next module!" href="#">Hold a Macmillan coffee morning get 10% off your next module!</a>
+								</h3>
+								<div class="sys_thumbnail">
+									<a href="#"><img src="/CachedImage.axd?ImageName=%2fcontrol-gallery%2fmedia%2fimages%2fnews%2fevesham-committee-200x175-Cropped-200x150.jpg&amp;ImageWidth=100&amp;ImageHeight=75" alt="Hold a Macmillan coffee morning get 10% off your next module!"></a>
+								</div>
+								<div class="sys_subitem-summary sys_news-summary">
+									<dl>
+										<dt class="sys_news-description">
+											Description
+										</dt>
+										<dd class="sys_news-description">
+											Hold a Macmillan coffee morning for 10% off your next module and we'll donate 10% to Macmillan cancer research.
+										</dd>
+										<dt class="sys_news-datepublished">
+											Date:
+										</dt>
+										<dd class="sys_news-datepublished">
+											Wednesday 8th September 2010
+										</dd>
+									</dl>
+								</div>
+								<div class="sys_clear"></div>
+							</div>
+						</div>
+					</div>
+					<div class="sys_flickrpager">
+						<div class="sys_paginginfo">
+							<span class="c_paginginforecorddescription">Displaying</span> 
+							<span class="sys_paginginfocurrentrecord">1</span> 
+							<span class="sys_paginginforecordcountdescription">to</span> 
+							<span class="sys_paginginfomaxrecord">3</span> 
+							<span class="sys_paginginforecordcountdescription">of</span> 
+							<span class="sys_paginginforecordcount">16</span>
+						</div>
+						<div class="sys_navigation">
+							<span class="sys_navigationprevious sys_disabled">
+								<span>Previous</span>
+							</span> 
+							<span class="sys_page sys_selected">
+								<span>1</span>
+							</span> 
+							<span class="sys_page">
+								<a title="Go to the 2nd page of the News" href="#">2</a>
+							</span> 
+							<span class="sys_page">
+								<a title="Go to the 3rd page of the News" href="#"></a>
+								<a title="Go to the 4th page of the News" href="#">4</a>
+							</span> 
+							<span class="sys_page">
+								<a title="Go to the 5th page of the News" href="#">5</a>
+							</span> 
+							<span class="sys_ellipsis">…</span> 
+							<span class="sys_navigationnext">
+								<a title="Go to the next page of the News" href="#">Next</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--End News Archive -->
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@newsComplete</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
